@@ -7,7 +7,7 @@ app.get('/get', (req, res) => {
 });
 
 app.get('/aws1', (req, res) => {
-  res.send('CICD Pipeline working...!');
+  res.send('CICD Pipeline working Done...!');
 });
 
 app.listen(port, () => {
