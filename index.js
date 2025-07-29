@@ -6,7 +6,7 @@ app.get('/get', (req, res) => {
   res.send('Hello World!');
 });
 
-app.get('/update', (req, res) => {
+app.get('/aws', (req, res) => {
   res.send('CICD Pipeline working...!');
 });
 
