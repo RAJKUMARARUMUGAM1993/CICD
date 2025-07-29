@@ -3,7 +3,7 @@ const app = express();
 const port = 7000;
 
 app.get('/get', (req, res) => {
-  res.send('Hello World before CICD');
+  res.send('Hello World After CICD');
 });
 
 app.get('/aws1', (req, res) => {
